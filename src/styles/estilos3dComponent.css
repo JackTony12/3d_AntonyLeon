@@ -1,0 +1,112 @@
+*{
+  font-family: 'poppins',sans-serif;
+  font-weight: 400;
+}
+.modelo-card {
+    position:relative;
+    width: 240px;
+    margin: 10px;
+    padding: 10px 20px ;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    text-align: left;
+    color:rgb(95, 95, 95);
+    background-color: rgb(233, 233, 233);
+    box-shadow: 3px 3px 10px gray;
+    transition:transform .3s;
+  }
+  .modelo-card:hover{
+    transform: scale(1.04);
+  }
+  .modelo-card h3{
+    text-align:center ;
+    margin:0;
+ }
+ .modelo-card p{
+  margin:5px 20px;
+ }
+ .modelo-card a{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+  .canvas-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom:15px;
+    position: relative;
+    border:2px solid rgb(165, 165, 165);
+    border-radius: 5px;
+  }
+  .canvas-container canvas{
+    border-radius:5px;
+  }
+  
+ .cards-container{
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+ }
+ .modelo-download a{
+  display:flex;
+  font-size: .8rem;
+  border-radius:4px;
+  background-color:#008B8B;
+  margin:5px 20px;
+  padding:5px 10px;
+  color:rgb(17, 17, 17);
+  cursor: pointer;
+  text-decoration: none;
+ }
+ .modelo-download a:hover{
+  background-color: rgb(0, 96, 141);
+  color:white;
+ }
+
+ .rotate-icon{
+   position:absolute;
+   right: 20px;
+   top:20px;
+   color:#008B8B;
+   font-size:1.5rem;
+  }
+/* TITLE COMPONENT===================================== */
+.title-container p{
+  color:rgb(73, 73, 73);
+  font-size:1vw;
+  padding:1vw;
+
+}
+.title{
+  padding:20px;
+  background-color: #000000;
+
+}
+.title h1 {
+  margin-left:20px;
+  font-size: 2rem;
+}
+
+/* logo================================= */
+.logo-container img{
+
+  object-fit: cover;
+  width: 10vw;
+  height: 10vw;
+
+}
+.logo-container{
+  display: flex;
+}
+.p-text{
+  width: 50%;
+}
+.three-padre-conteiner{
+  width: 100%;
+}
+
+.three-container{
+  width: 50%;
+  margin:0;
+}
